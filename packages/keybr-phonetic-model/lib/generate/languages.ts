@@ -12,7 +12,7 @@ export const languages: readonly Language[] = [
   { id: "el", alphabet: "αάβγδεέζηήθιίκλμνξοόπρσςτυύφχψωώ" },
   { id: "en", alphabet: "abcdefghijklmnopqrstuvwxyz" },
   { id: "es", alphabet: "aábcdeéfghiíjlmnñoópqrstuúüvxyz" },
-  { id: "fr", alphabet: "abcçdeéèfghijlmnopqrstuvxyz" },
+  { id: "fr", alphabet: "aâàbcçdeéèêfghiïîjlmnoôpqrstuùvxyz" },
   { id: "it", alphabet: "abcdefghijklmnopqrstuvwxyz" },
   { id: "pl", alphabet: "aąbcćdeęfghijklłmnńoóprsśtuwyzźż" },
   { id: "pt", alphabet: "aáâãàbcçdeéêfghiíjklmnoóôõpqrstuúvwxyz" },
