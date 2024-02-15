@@ -81,10 +81,10 @@ test("generate text from a full transition table", (t) => {
     new Letter(0x0064, 0.25),
   ]);
 
-  t.regex(model.nextWord(new Filter(null, null)), /^[abcd]{3,}$/);
-  t.regex(model.nextWord(new Filter([a], null)), /^[a]{3,}$/);
-  t.regex(model.nextWord(new Filter([a], a)), /^[a]{3,}$/);
-  t.regex(model.nextWord(new Filter([a, b, c, d], a)), /^[abcd]{3,}$/);
+  t.regex(model.nextWord(new Filter(null, null)), /^[abcd]{1,}$/);
+  t.regex(model.nextWord(new Filter([a], null)), /^[a]{1,}$/);
+  t.regex(model.nextWord(new Filter([a], a)), /^[a]{1,}$/);
+  t.regex(model.nextWord(new Filter([a, b, c, d], a)), /^[abcd]{1,}$/);
 });
 
 test("appended words", (t) => {

@@ -5,7 +5,7 @@ import { type Filter } from "./filter.ts";
 import { Letter } from "./letter.ts";
 import { TransitionTable } from "./transitiontable.ts";
 
-const minLength = 3;
+const minLength = 1;
 const maxLength = 10;
 
 export abstract class PhoneticModel {
